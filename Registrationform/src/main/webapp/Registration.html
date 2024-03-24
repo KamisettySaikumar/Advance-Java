@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Registration Form</title>
+</head>
+<body bgcolor="pink">
+<h1>Registration Form</h1>
+<form method="get" action="RegisterServlet">
+<label>UserName:</label>
+<input type="text" name="User Name" required/>
+<br><br>
+<label>password:</label>
+<input type="Password" name="Password" required/>
+<br><br>
+<lable>mobile:</label>
+<input type="number" name="mobile" required/>
+<br><br>
+<label>Email:</label>
+<input type="email" name="email" required/>
+<br><br>
+<label>Gender:</label>
+<input type="radio" name="gender" value="MALE"/>MALE
+<input type="radio" name="gender" value="FEMALE"/>FEMALE
+<br><br>
+<label>select DOB:</label>
+<input type="Date" name="dob" required/>
+<br><br>
+<label>Qualification:</label>
+<input type="checkbox" name="qualification" value="BSC"/>BSC
+<input type="checkbox" name="qualification" value="MCA"/>MCA
+<input type="checkbox" name="qualification" value="B.TECH"/>B.TECH
+<input type="checkbox" name="qualification"/ value="M.TECH">M.TECH
+<input type="checkbox" name="qualification" value="MS"/>MS
+<br><br>
+<label>Country:</label>
+<select name="country">
+<option>india</option>
+<option>japan</option>
+<option>usa</option>
+<option>ussr</option>
+<option>vnk</option>
+</select>
+<br><br>
+<label>select language:</label>
+<select name="languages" size='3' multiple>
+<option>telugu</option>
+<option>hindi</option>
+<option>english</option>
+<option>kannada</option>
+<option>tamil</option>
+</select>
+<br><br>
+<label>Address:</label>
+<textarea name="Address" rows="5" cols="25">
+</textarea>
+<br><br>
+<input type="submit" value="Register"/>
+</form>
+</body>
+</html>
+
+

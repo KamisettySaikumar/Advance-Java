@@ -1,0 +1,13 @@
+package com.satya.springex;
+
+public class GreetingImpl implements Greeting 
+{
+
+	@Override
+	public void greet() {
+		// TODO Auto-generated method stub
+		
+	}
+	
+
+}
